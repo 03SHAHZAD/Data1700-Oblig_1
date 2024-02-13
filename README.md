@@ -1,4 +1,4 @@
-# Data1700-Oblig_1
+# Data1700-Oblig_1_Priv
 
 OsloMet brukernavn: s375055
 
