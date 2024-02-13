@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<script src="Obligatory1.js"></script>
+
+<body>
+  <h1 class="h1 text-center">Order cinema tickets</h1>
+
+  <form action="#">
+      <label for="filmer">Select movie:</label>
+      <select id="filmer" class="form-select" aria-label="Default select example">
+       
+        <option value="blank"></option>
+
+          <option value="Black panther">Black panther</option>
+
+          <option value="Star wars">Star wars</option>
+
+          <option value="Gilbort">Gilbort</option>
+
+          <option value="Ride Along">Ride Along</option>
+
+      </select>
+      <br>
+
+     
+
+      <label for="Fornavn">Firstname:</label>
+      <input id="Fornavn" class="form-control" type="text">
+      <p id="FornavnError"></p>
+      <br>
+
+      <label for="Etternavn">Lastname:</label>
+      <input id="Etternavn" class="form-control" type="text">
+      <p id="EtternavnError"></p>
+      <br>
+
+      <label for="Epost">Email:</label>
+      <input id="Epost" class="form-control" type="text">
+      <p id="EpostError"></p>
+      <br>
+
+      <label for="TelefonNr">Phonenumber:</label>
+      <input id="TelefonNr" class="form-control" type="text">
+      <p id="TelefonNrError"></p>
+      <br>
+
+      <label for="Antall">Number of tickets:</label>
+      <input id="Antall" class="form-control" type="number">
+      <p id="AntallError"></p>
+      <br>
+
+      <input type="submit" class="form-control" value="Buy Tickets" onclick="BuyTicket()">
+  </form>
+
+
+  <h2 class="h2 text-center">All tickets</h2>
+  <div id="ut"></div>
+
+  <button onclick="DeleteAlt()" type="button" class="btn btn-primary">Delete all tickets</button>
+
+</body>
+</html>
