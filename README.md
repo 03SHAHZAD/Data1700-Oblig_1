@@ -4,7 +4,7 @@ OsloMet brukernavn: s375055
 
 GitHub brukernavn: @03SHAHZAD
 
-Github repo URL: 
+Github repo URL: https://github.com/03SHAHZAD/Data1700-Oblig_1.git
 
 Fullt navn: Mohammad Shahzad Iftikhar
 
