@@ -21,8 +21,24 @@ function BuyTicket(){
             document.getElementById("EpostError").innerHTML="Du må skrive noe i epost";
         } else {
         billetter.push(billett);
-        
-    
-    
     }
+    function kjoppBillett(){
+        const film = document.getElementById("Ailmer").value;
+        const antall = document.getElementById("ANtall").value;
+        const fornavn = document.getElementById("Fornavn").value;
+        const etternavn = document.getElementById("Etternavn").value;
+        const telefonnr = document.getElementById("TelefonNr").value;
+        const epost = document.getElementById("Epost").value;
+    
+        if (isNaN(Number(antall))){
+            alert(" Antallet er ikke et tall!");
+            error=true;
+        }else if(Number(antall)<1){
+            alert("Antallet må være mer enn 0 !")
+            error=true;
+        }else{
+            error = false;
+        }
+    
+      
 }
