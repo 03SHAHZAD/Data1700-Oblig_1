@@ -22,31 +22,31 @@ function kjopbilett(){
      } else {
         billetter.push(billett);
         
-        for (let liste of billetter){
-            ut+="<tr>"
-            ut+="<td>" + liste.film + "</td> <td>"+liste.antall+"</td><td>"+liste.fornavn+"</td>" + "<td>" + liste.etternavn+ "</td><td>"+liste.telefonnr+"</td><td>"+liste.epost+"</td>";
-            ut+="</tr>"
-        }   
-        document.getElementById("ut").innerHTML=ut;
+            for (let liste of billetter){
+                ut+="<tr>"
+                ut+="<td>" + liste.film + "</td> <td>"+liste.antall+"</td><td>"+liste.fornavn+"</td>" + "<td>" + liste.etternavn+ "</td><td>"+liste.telefonnr+"</td><td>"+liste.epost+"</td>";
+                ut+="</tr>"
+            }   
+            document.getElementById("ut").innerHTML=ut;
 
-       
-        document.getElementById("AntallError").innerHTML="";
-        document.getElementById("FornavnError").innerHTML="";
-        document.getElementById("EtternavnError").innerHTML="";
-        document.getElementById("TelefonError").innerHTML="";
-        document.getElementById("EpostError").innerHTML=""
-    }
+        
+            document.getElementById("AntallError").innerHTML="";
+            document.getElementById("FornavnError").innerHTML="";
+            document.getElementById("EtternavnError").innerHTML="";
+            document.getElementById("TelefonError").innerHTML="";
+            document.getElementById("EpostError").innerHTML=""
+        }
 
-    document.getElementById("Antall").value="";
-    document.getElementById("Fornavn").value="";
-    document.getElementById("Etternavn").value="";
-    document.getElementById("Telefon").value="";    
-    document.getElementById("Epost").value="";
+                document.getElementById("Antall").value="";
+                document.getElementById("Fornavn").value="";
+                document.getElementById("Etternavn").value="";
+                document.getElementById("Telefon").value="";    
+                document.getElementById("Epost").value="";
 
-    return false; 
-}
+                return false; 
+            }
 
-function SlettBiletter(){
-    document.getElementById("ut").innerHTML="";
-    billetter=[];
-}
+                    function SlettBiletter(){
+                        document.getElementById("ut").innerHTML="";
+                        billetter=[];
+                    }
