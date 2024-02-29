@@ -2,7 +2,7 @@ let billetter=[];
 let ut="<table><tr>" +
     "<th>Film</th><th>Antall</th><th>Fornavn</th><th>Etternavn</th><th>Telefon</th><th>Epost</th>"+"</tr>";
     
-    function BuyTicket(){
+    function kjopticket(){
         const billett={
             film: document.getElementById("Filmer").value,
             antall: document.getElementById("Antall").value,
@@ -40,7 +40,7 @@ let ut="<table><tr>" +
         document.getElementById("Antall").value="";
         document.getElementById("Fornavn").value="";
         document.getElementById("Etternavn").value="";
-        document.getElementById("Telefon").value="";
+        document.getElementById("Telefon").value="";    
         document.getElementById("Epost").value="";
     
     }
