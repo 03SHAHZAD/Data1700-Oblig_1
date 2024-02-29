@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Data1700.v24 Oblig1 </title> 
    <style>
-    form  { display: table;
-  }
+    form  { display: table; }
     p     { display: table-row;  }
     label { display: table-row; }
     input { display: table-row; }
@@ -23,19 +22,19 @@
 
   <form action="#">
      
-     <p>Velg filmer</p> <select id="filmer" class="form-select" aria-label="Default select example">
+     <p>Velg filmer</p> <select id="Filmer" class="form-select" aria-label="Default select example">
        
-        <option value="harry potter">harry potter1</option>
-        <option value="harry potter">harry potter2</option>
-        <option value="harry potter">harry potter3</option>
-        <option value="harry potter">harry potter4</option>
+        <option value="Blank"></option>
+        <option value="infinity war">Infinity war</option>
+        <option value="endgame">endgame</option>
+        <option value="iron man">iron man</option>
 
       </select>
       <br>
 
             
                 <label for="Antall">Antall:</label><input id="Antall" class="form-control" type="number">
-                <p id="AntallError"></p><br>
+                <p id="AntallError"></p> <br>
 
                 <label for="Fornavn">Fornavn:</label><input id="Fornavn" class="form-control" type="text">
                 <p id="FornavnError"></p><br>
@@ -43,22 +42,19 @@
                 <label for="Etternavn">Etternavn:</label><input id="Etternavn" class="form-control" type="text">
                 <p id="EtternavnError"></p> <br>
 
-                <label for="TelefonNr">Telefon:</label><input id="TelefonNr" class="form-control" type="number">
-                <p id="TelefonNrError"></p><br>
+                <label for="Telefon">Telefon:</label><input id="Telefon" class="form-control" type="number">
+                <p id="TelefonError"></p> <br>
 
                 <label for="Epost">Epost:</label><input id="Epost" class="form-control" type="text">
                 <p id="EpostError"></p> <br>
                 
-                <input type="submit" class="form-control" value="Kjøp bilett" onclick="kjopticket()"> </form>
+                <input type="Submit" class="form-control" value="Kjop bilett" onclick="kjopticket()"> </form>
 
 
   <h1 class="h1 text-center">Alle billetter</h1>
   <div id="ut"></div>
 
   <button onclick="SlettBiletter()" type="button" class="btn btn-primary">Slett biletter</button>
-
-
-  <script src="oblig1.js"></script>
 
 </body>
 </html>
