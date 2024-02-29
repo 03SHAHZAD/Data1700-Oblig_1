@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title> 
+  <title>Data1700.v24 Oblig1 </title> 
    <style>
     form  { display: table;
   }
@@ -22,11 +22,9 @@
   <h1 class="h1 text-center">Bestilling av kino biletter</h1>
 
   <form action="#">
-      <label for="filmer"><Select></Select> film:</label>
-      <select id="filmer" class="form-select" aria-label="Default select example">
+     
+     <p>Velg filmer</p> <select id="filmer" class="form-select" aria-label="Default select example">
        
-        <option value="blank"></option  >
-
         <option value="harry potter">harry potter1</option>
         <option value="harry potter">harry potter2</option>
         <option value="harry potter">harry potter3</option>
@@ -50,16 +48,14 @@
 
                 <label for="Epost">Epost:</label><input id="Epost" class="form-control" type="text">
                 <p id="EpostError"></p> <br>
-
-
-    <input type="submit" class="form-control" value="Kjøp bilett" onclick="kjopticket()">
-  </form>
+                
+                <input type="submit" class="form-control" value="Kjøp bilett" onclick="kjopticket()"> </form>
 
 
   <h1 class="h1 text-center">Alle billetter</h1>
   <div id="ut"></div>
 
-  <button onclick="AltDelete()" type="button" class="btn btn-primary">Slett biletter</button>
+  <button onclick="SlettBiletter()" type="button" class="btn btn-primary">Slett biletter</button>
 
 
   <script src="oblig1.js"></script>
